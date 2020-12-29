@@ -1,0 +1,31 @@
+.jumbot{
+    background-image: url(https://cdn.sm-news.ru/wp-content/uploads/2020/09/08/53882296-cbbc-4e80-a9e1-fe2ea75aa5bd.jpeg);
+    opacity: 0.85;
+    width: 100%;
+    height: 750px;
+   color: white;
+    background-size: 1600px 1000px ;
+}
+.div{
+    opacity:21;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+
+}
+.mt{
+    margin-top: 25%;
+    margin-left: 12px;
+}
+.h1aupair{
+    font-weight: bold;
+    font-size: 50px;
+    background-color: black;
+    display: inline-block;
+}
+.paupair{
+    font-weight: bold;
+    font-size: 22px;
+    background-color: black;
+    display: inline-block;
+}
