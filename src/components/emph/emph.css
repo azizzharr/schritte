@@ -1,0 +1,33 @@
+.emailkarte {
+    width: 400px;
+    height: 210px;
+    background-color: #F4EEEE;
+}
+.photokarte{
+    width: 400px;
+    height: 210px;
+   background-color:#F4EEEE;
+
+}
+.imgKarte{
+    width: 83px;
+    height: 83px;
+    margin-left: 38%;
+}
+.mtemph{
+    margin-top: 14%;
+}
+.h2emph{
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+}
+.ulemph{
+    list-style: none;
+}
+.aemph{
+    color:black
+}
+.a11{
+    text-indent: 33px;
+    font-family: 'Inconsolata', monospace;
+}

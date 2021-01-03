@@ -1,0 +1,14 @@
+.paralax{
+    width: 100%;
+    height: 600px ;
+    color: black;
+    background-size: 1000px 800px;
+    background-position: center;
+
+}
+.ulParalax{
+    list-style: none;
+    font-size: 20px;
+    color: black;
+    font-family: 'Inconsolata', monospace;
+    }

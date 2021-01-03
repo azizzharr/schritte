@@ -1,4 +1,9 @@
 .imgp{
     width: 80%;
-    height: 500px;
+    height: 600px;
+}
+.carH2{
+    background-color: #366E97;
+    color:white;
+    font-size: 25px;
 }

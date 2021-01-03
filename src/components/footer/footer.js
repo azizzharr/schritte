@@ -5,7 +5,7 @@ class Footer extends Component{
         return(
             <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white"> сделано от : azizbekaibashuulu@gmail.com</p>
+      <p class="m-0 text-center text-white"> © Copyright Erster Schritte 2020. Made with : azizbekaibashuulu@gmail.com</p>
     </div>
   </footer>
         )

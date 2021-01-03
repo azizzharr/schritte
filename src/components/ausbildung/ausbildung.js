@@ -16,7 +16,7 @@ class Ausbildung extends Component {
                     <p className="p">
                         Что такое Ausbildung?
                         </p>
-                    <div className="zweiteDiv">
+                    <div data-aos="fade-right" className="zweiteDiv">
                         <p className="p2">
                             Ausbildung – программа профессиональной подготовки и обучения.
                        <li>
@@ -63,7 +63,7 @@ class Ausbildung extends Component {
                             <li>на прохождение Ausbildung.
                                 </li> 
                         </p>
-                        <img className="imgaus" src="http://samara.kg/wp-content/uploads/2020/09/ausbildung_v_germanii_1.jpg" alt=""/>
+                        <img data-aos="fade-left" className="imgaus" src="http://samara.kg/wp-content/uploads/2020/09/ausbildung_v_germanii_1.jpg" alt=""/>
 
                     </div>
                     <div className="dritteDiv ">
@@ -181,6 +181,7 @@ class Ausbildung extends Component {
                    
                     </div>
                 </Container>
+               
             </div>
         )
     }
