@@ -1,3 +1,23 @@
 .kontaktimg{
     width: 100%;
 }
+.kontjumb{
+    background-image: url(https://bloknot-krasnodar.ru/storage/ads_bloknot_preview/1752361868.jpg);
+    width: 100%;
+    height: 700px;
+}
+.pro{
+    width: 100%;
+    height: 500px;
+    background-color: #B0E0E6;
+}
+.h2kont{
+    text-align: center;
+}
+
+.h2kontw{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Martel', serif;
+
+}

@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import "./ausbildung.css"
-import { Container,Row } from "react-bootstrap"
+import { Container,Row,Card } from "react-bootstrap"
 
 class Ausbildung extends Component {
     render() {
@@ -66,6 +66,67 @@ class Ausbildung extends Component {
                         <img data-aos="fade-left" className="imgaus" src="http://samara.kg/wp-content/uploads/2020/09/ausbildung_v_germanii_1.jpg" alt=""/>
 
                     </div>
+<br/>
+<br/>
+ <h2 className="ausbildungh2">
+TРЕБОВАНИЯ:
+</h2>
+<br/>
+                    <Row>
+
+
+<Card className=" offset-lg-1 offset-md-1 form-group" border="success" style={{ width: '18rem' }}>
+    <Card.Header>Требования</Card.Header>
+    <Card.Body>
+        <Card.Title>- Возраст – 18-40 лет;</Card.Title>
+        <Card.Text>
+        - Аттестат о законченном школьном образовании (на многие специальности аусбильдунг можно подавать с аттестатом школы 9 классов!)
+
+</Card.Text>
+        <Card.Text>
+        - Знания немецкого языка на уровне не ниже уровня B1! На большинство медицинских и технических специальностей
+</Card.Text>
+        <Card.Text>
+        еобходимо владеть немецким языком на уровне не ниже B2 (и чем выше ваш уровень немецкого языка, тем соответственно лучше!)
+</Card.Text>
+
+    </Card.Body>
+</Card>
+<Card className="ml-4 form-group" border="primary" style={{ width: '18rem' }}>
+    <Card.Header>Требования </Card.Header>
+    <Card.Body>
+        <Card.Title>Сроки</Card.Title>
+        <Card.Text>
+        Подавать документы на программу Ausbildung стоит желательно за 6-12 месяцев до начала программы. Это длительный по времени процесс! 
+</Card.Text>
+        <Card.Text>
+        Пока работодатель получит заявки, пока их все изучит и рассмотрит, примет по всем им решения, 
+</Card.Text>
+        <Card.Text>
+        напишет ответы, сделает и отправит вам ваш контракт на аусбильдунг, пока вы подготовите и подадите необходимые документы на визу
+</Card.Text>
+    </Card.Body>
+</Card>
+
+<Card className="ml-4 form-group" border="danger" style={{ width: '18rem' }}>
+    <Card.Header>Внимание</Card.Header>
+    <Card.Body>
+        <Card.Title>Внимание для тех, кто УЖЕ находится в Германии!</Card.Title>
+        <Card.Text>
+        Подавать на эту программу можно находясь еще у себя на родине (в странах СНГ и т.д.), 
+</Card.Text>
+        <Card.Text>
+        , однако гораздо проще и легче участвовать в программе тем, кто уже находится в Германии
+</Card.Text>
+        <Card.Text>
+        (к примеру: FSJ/BFD/FOeJ, Au-Pair, Logo, Work and Trawel, Deutschkurs)).
+</Card.Text>
+    </Card.Body>
+</Card>
+</Row>
+
+
+
                     <div className="dritteDiv ">
                         <h2 className="h2p">
                             <br/>   <br/>

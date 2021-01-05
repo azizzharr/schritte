@@ -17,7 +17,7 @@ class Erster extends Component {
                 </p>
                     <div >
    
-         <p  data-aos="flip-left"
+         <p  data-aos="flip-eft"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000"  className="p2erster" >
 тогда звони нам <br/>

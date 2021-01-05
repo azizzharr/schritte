@@ -80,7 +80,7 @@ class Vakansy extends Component{
     </Card.Footer>
   </Card>
   <Card>
-    <Card.Img className="imgvakansy" variant="top" src="https://img4.goodfon.com/wallpaper/nbig/d/ee/bulochki-vypechka-assorti-sdoba.jpg" />
+    <Card.Img className="imgvakansy" variant="top" src="https://get.wallhere.com/photo/bread-bakery-oven-poppy-1017224.jpg" />
     <Card.Body>
       <Card.Title>Пекарня</Card.Title>
       <Card.Text>

@@ -19,6 +19,8 @@ import Praktikum from "../praktikum/praktikum"
 import Fordern from '../fordern/fordern';
 import Kontakte from "../kontakte/kontakte"
 import Fsb from "../fsb/fsb"
+import Landwirtschaft from "../Landwirtschaft/Landwirtschaft"
+import I18n from "../i18n/i18n"
 
 
 class App extends Component {
@@ -31,13 +33,11 @@ class App extends Component {
                         <Route exact path='/'>
                             <Container>
                                 <br />
+                                <I18n/>
                                 <Erster />
                                 <Studenten />
                                 <Abfahrt />
-                                <Row>
-                                    <Karte />
-                                    <Emph />
-                                </Row>
+
 
                             </Container>
                         </Route>
@@ -77,20 +77,31 @@ class App extends Component {
                             </Container>
 
                         </Route>
-                        <Route exact path="/kontakte">
+                        <Route exact path="/medizin">
 
                             <Container>
                                 <Kontakte />
 
-                                <Row>
-                                    <Karte />
-                                    <Emph />
-                                </Row>
                             </Container>
                         </Route>
-                    </Switch>
+                        <Route exact path="/Landwirtschaft">
+                            
+                            <Landwirtschaft/>
 
-                    <br />
+                            
+                        </Route>
+                    </Switch>
+                    <Container>
+
+
+                        <br />
+                        <Row>
+                            <Karte />
+                            <Emph />
+                        </Row>
+                        <br />
+
+                    </Container>
                     <Footer />
                 </div>
             </Router>
