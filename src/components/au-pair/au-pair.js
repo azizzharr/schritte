@@ -205,7 +205,7 @@ class AuPair extends Component {
                                     <Card.Title>Заграничный паспорт</Card.Title>
                                     <Card.Text>
                                         Вам нужно прислать на e-mail:
-                                        slyepko.tetiana@gmail.com
+                                        ersterschritt8@gmail.com
                                         отсканированную страницу заграничного
                                         паспорта, где размещена Ваша
                                         фотография.

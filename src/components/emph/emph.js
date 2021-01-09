@@ -40,7 +40,7 @@ class Emph extends Component{
      Email
  </h2>
  <h4 className="aemph a11">
-     azizbekaibashuulu@gmail.com
+     ersterschritt8@gmail.com
     </h4>  
   </div>
    </Row>
