@@ -1,16 +1,18 @@
 import React,{Component} from "react"
 import "./abfahrt.css"
+import visa from "../pictures/visa.png"
 
 class Abfahrt extends Component{
     render(){
         return(
-    <div className="container">
+    <div className="container abfahren">
         <br/>
 
         <h1 className="h1abfahrt">
         Выезд
         </h1>
         <div  className="zweiteDiv abfahrt1">
+            <div className="dibabfahrt"></div>
                         <p className="p2 pabfahrt ">
                         Подготовка к выезду
 
@@ -45,7 +47,7 @@ class Abfahrt extends Component{
                            Вам будет к кому обратиться и проконсультироваться.
                                 </li>
                         </p>
-                        <img  className="imgaus" src="http://samara.kg/wp-content/uploads/2020/09/%D0%91%D0%B5%D0%B7%D1%8B%D0%BC%D1%8F%D0%BD%D0%BD%D1%8B%D0%B9xs-1.png" alt="" />
+                        <img  className="imgausl" src={visa} alt="" />
                         <br/>
                         <br/>
                     </div>

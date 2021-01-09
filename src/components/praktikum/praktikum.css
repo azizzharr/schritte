@@ -1,12 +1,18 @@
-.titlepraktikum{
+.titlepraktikum {
     font-size: 42px;
-   
 }
-.textpraktikum{
-    font-size: 24px;
 
+.textpraktikum {
+    font-size: 24px;
 }
-.imgpraktikum{
+
+.imgpraktikum {
     width: 100%;
-    height: 550px;
+    height: 600px;
+    background-size: 1200px 800px;
+}
+
+.Praktikum {
+    width: 100%;
+    height: 600px;
 }

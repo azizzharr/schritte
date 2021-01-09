@@ -1,17 +1,878 @@
-@media only screen and (max-width:1200px){
-    Nav .link{
-        font-size: 16px;
-       
+@media only screen and (max-width:1400px) {
+    .divGeld {
+        width: 100%;
+        height: 600px;
     }
-    .navbar{
+    .h1Geld {
+        font-size: 50px;
+    }
+    .stylegeld {
+        width: 220px;
+        height: 450px;
+    }
+    .contain .img {
+        width: 1090px;
+        height: 923px;
+    }
+    .head .navbar {
+        font-size: 23px;
+    }
+    .ml-auto .link {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .kontjumb {
+        height: 900px;
+        background-size: 1200px 900px;
+    }
+    .landjumb {
+        background-size: 1200px 900px;
+        width: 100%;
+        height: 900px;
+    }
+    .divkarte .iframe {
+        width: 1200px;
+        height: 550px;
+    }
+    .emailkarte {
+        width: 500px;
+        height: 250px;
+        background-color: #F4EEEE;
+    }
+    .photokarte {
+        width: 500px;
+        height: 250px;
+        background-color: #F4EEEE;
+    }
+    .a11 {
+        text-indent: -8px;
+        font-family: 'Inconsolata', monospace;
+        font-size: 21px;
+    }
+}
+
+@media only screen and (max-width:1100px) {
+    .divGeld {
+        width: 70%;
+        height: 1000px;
+    }
+    .h1Geld {
+        font-size: 40px;
+    }
+    .stylegeld {
+        width: 15rem;
+        height: 400px;
+        margin-top: 30px;
+    }
+    .zweiteDiv .divaupairimg {
+        margin-bottom: 410px;
+    }
+    .imgausl {
+        width: 500px;
+        height: 350px;
+        position: absolute;
+        top: -83%;
+        left: 5%;
+    }
+    .zweiteDiv {
+        font-size: 15px;
+        height: 450px;
+    }
+    .ausbildung .dritteDiv {
+        width: 880px;
+        height: 1100px;
+        background-color: #383131;
+    }
+    .offses-1 {
+        margin-left: 75px;
+    }
+    .dritteDiv .h2p {
+        text-align: center;
+        font-size: 38px;
+        margin-top: 30px;
+    }
+    .contain .img {
+        width: 890px;
+        height: 723px;
+    }
+    .jumbot {
+        height: 700px;
+        background-size: 1210px 850px;
+    }
+    .h1aupair {
+        font-weight: bold;
+        font-size: 49px;
+    }
+    .paupair {
+        font-weight: bold;
+        font-size: 22px;
+    }
+    .abfahrt1 .imgausl {
+        width: 720px;
+        height: 400px;
+        position: absolute;
+        top: -98%;
+        left: 5%;
+    }
+    .abfahren {
+        width: 100%;
+        height: 880px;
+    }
+    .abfahren .dibabfahrt {
+        margin-bottom: 460px;
+    }
+    .ml-auto .link {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .head .navbar {
+        font-size: 20px;
+    }
+    .medizin .pro {
+        width: 100%;
+        height: 800px;
+        background-color: #B0E0E6;
+    }
+    .medizin .h2kontw {
+        font-size: 55px;
+    }
+    .medizin .h2kont {
+        font-size: 35px;
+    }
+    .medizin .ulkontakt {
+        font-size: 24px;
+    }
+    .kontjumb {
+        height: 800px;
+        background-size: 900px 800px;
+    }
+    .landjumb {
+        background-size: 900px 800px;
+        height: 800px;
+    }
+    Nav .link {
+        font-size: 16px;
+        margin-left: 8px;
+    }
+    .navbar {
         font-size: 17px;
     }
 }
 
-@media only screen and (max-width:768px){
-
+.divkarte .iframe {
+    width: 900px;
+    height: 450px;
 }
 
-@media only screen and (max-width:480px){
-
+.emailkarte {
+    width: 500px;
+    height: 250px;
+    background-color: #F4EEEE;
 }
+
+.photokarte {
+    width: 500px;
+    height: 250px;
+    background-color: #F4EEEE;
+}
+
+.a11 {
+    text-indent: 8px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 25px;
+}
+
+.h2emph {
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-size: 32px;
+}
+
+@media only screen and (max-width:910px) {
+    .erster {
+        width: 100%;
+        height: 550px;
+        background-size: 1000px 550px;
+    }
+    .perster {
+        margin-top: 30px;
+        font-size: 50px;
+        text-indent: 4%;
+    }
+    .p2erster {
+        font-size: 30px;
+        margin-top: 45px;
+        text-indent: 4%;
+    }
+    .divGeld {
+        width: 100%;
+        height: 1000px;
+    }
+    .stylegeld {
+        width: 15rem;
+        height: 400px;
+        margin-top: 30px;
+    }
+    .h1Geld {
+        font-size: 40px;
+    }
+    .h {
+        width: 100%;
+        height: 650px;
+    }
+    .imgp {
+        width: 100%;
+        height: 550px;
+    }
+    .cimg {
+        height: 650px;
+    }
+    .carousel {
+        height: 650px;
+    }
+    .stuspan {
+        font-size: 42px;
+    }
+    .ausbildung .dritteDiv {
+        width: 600px;
+        height: 1100px;
+        background-color: #383131;
+    }
+    .offses-1 {
+        margin-left: 50px;
+    }
+    .dritteDiv .h2p {
+        text-align: center;
+        font-size: 38px;
+        margin-top: 30px;
+    }
+    .ausbildung .ausbildungh2 {
+        font-size: 48px;
+    }
+    .contain .img {
+        width: 720px;
+        height: 623px;
+    }
+    .ausbildung .h1 {
+        margin-top: 23px;
+        font-size: 50px;
+    }
+    .jumbot {
+        height: 600px;
+        background-size: 950px 700px;
+    }
+    .h1aupair {
+        font-weight: bold;
+        font-size: 45px;
+    }
+    .paupair {
+        font-weight: bold;
+        font-size: 22px;
+    }
+    .abfahrt1 .imgausl {
+        width: 520px;
+        height: 300px;
+        position: absolute;
+        top: -70%;
+        left: 5%;
+    }
+    .abfahren {
+        width: 100%;
+        height: 700px;
+    }
+    .abfahren .dibabfahrt {
+        margin-bottom: 340px;
+    }
+    .zweiteDiv .divaupairimg {
+        margin-bottom: 410px;
+    }
+    .imgausl {
+        width: 500px;
+        height: 350px;
+        position: absolute;
+        top: -83%;
+        left: 5%;
+    }
+    .zweiteDiv {
+        font-size: 15px;
+        height: 450px;
+    }
+    .head .navbar {
+        font-size: 27px;
+    }
+    .medizin .pro {
+        width: 100%;
+        height: 1000px;
+        background-color: #B0E0E6;
+    }
+    .medizin .h2kontw {
+        font-size: 44px;
+    }
+    .medizin .h2kont {
+        font-size: 35px;
+    }
+    .medizin .ulkontakt {
+        font-size: 22px;
+    }
+    .ml-auto .link {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .divkarte .iframe {
+        width: 700px;
+        height: 450px;
+    }
+    .a11 {
+        text-indent: -8px;
+        font-family: 'Inconsolata', monospace;
+        font-size: 22px;
+    }
+    .emailkarte {
+        width: 500px;
+        height: 250px;
+        background-color: #F4EEEE;
+    }
+    .photokarte {
+        width: 500px;
+        height: 250px;
+        background-color: #F4EEEE;
+    }
+    .h2emph {
+        text-align: center;
+        font-family: 'Inconsolata', monospace;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .erster {
+        width: 100%;
+        height: 500px;
+        background-size: 800px 500px;
+    }
+    .perster {
+        margin-top: 30px;
+        font-size: 45px;
+        text-indent: 4%;
+    }
+    .p2erster {
+        font-size: 30px;
+        margin-top: 38px;
+        text-indent: 4%;
+    }
+    .divGeld {
+        width: 80%;
+        height: 1900px;
+    }
+    .h1Geld {
+        font-size: 40px;
+    }
+    .stylegeld {
+        width: 15rem;
+        height: 400px;
+        margin-top: 30px;
+    }
+    .h {
+        width: 100%;
+        height: 600px;
+    }
+    .imgp {
+        width: 100%;
+        height: 500px;
+    }
+    .cimg {
+        height: 500px;
+    }
+    .carousel {
+        height: 500px;
+    }
+    .stuspan {
+        font-size: 38px;
+    }
+    .paralaxdiv .paralax {
+        width: 100%;
+        height: 720px;
+        color: black;
+        background-size: 400px 500px;
+        background-position: center;
+    }
+    .ausbildung .dritteDiv {
+        width: 300px;
+        height: 1650px;
+        background-color: #383131;
+    }
+    .offses-1 {
+        margin-left: 25px;
+    }
+    .dritteDiv .h2p {
+        text-align: center;
+        font-size: 32px;
+        margin-top: 30px;
+    }
+    .ausbildung .ausbildungh2 {
+        margin-top: 30px;
+    }
+    .contain .p {
+        font-size: 40px;
+    }
+    .contain .img {
+        width: 450px;
+        height: 423px;
+    }
+    .ausbildung .h1 {
+        margin-top: 23px;
+        font-size: 47px;
+    }
+    .Praktikum {
+        width: 100%;
+        height: 600px;
+    }
+    .Praktikum .titlepraktikum {
+        font-size: 38px;
+    }
+    .Praktikum .textpraktikum {
+        font-size: 18px;
+    }
+    .Praktikum .imgpraktikum {
+        width: 100%;
+        height: 550px;
+        background-size: 1200px 1000px;
+    }
+    .jumbot {
+        height: 550px;
+        background-size: 740px 550px;
+    }
+    .h1aupair {
+        font-weight: bold;
+        font-size: 39px;
+    }
+    .paupair {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .abfahrt1 .imgausl {
+        width: 420px;
+        height: 300px;
+        position: absolute;
+        top: -70%;
+        left: 5%;
+    }
+    .abfahren {
+        width: 100%;
+        height: 700px;
+    }
+    .abfahren .dibabfahrt {
+        margin-bottom: 340px;
+    }
+    .zweiteDiv .divaupairimg {
+        margin-bottom: 340px;
+    }
+    .imgausl {
+        width: 350px;
+        height: 300px;
+        position: absolute;
+        top: -70%;
+        left: 5%;
+    }
+    .zweiteDiv {
+        font-size: 15px;
+        height: 450px;
+    }
+    .head .navbar {
+        font-size: 27px;
+    }
+    .medizin .pro {
+        width: 100%;
+        height: 900px;
+        background-color: #B0E0E6;
+    }
+    .medizin .h2kontw {
+        font-size: 33px;
+    }
+    .medizin .h2kont {
+        font-size: 25px;
+    }
+    .medizin .ulkontakt {
+        font-size: 18px;
+    }
+    .kontjumb {
+        width: 100%;
+        height: 500px;
+        background-size: 600px 500px;
+    }
+    .landjumb {
+        background-size: 600px 500px;
+        width: 100%;
+        height: 500px;
+    }
+    .kontjumb .landtitle {
+        font-size: 20px;
+    }
+    .kontjumb .landtext {
+        font-size: 33px;
+    }
+    .landjumb .landtext {
+        font-size: 33px;
+    }
+    .landjumb .landtitle {
+        font-size: 20px;
+    }
+    .ml-auto .link {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .divkarte .iframe {
+        width: 500px;
+        height: 300px;
+    }
+    .a11 {
+        text-indent: -8px;
+        font-family: 'Inconsolata', monospace;
+        font-size: 16px;
+    }
+    .h2emph {
+        text-align: center;
+        font-family: 'Inconsolata', monospace;
+        font-size: 23px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .erster {
+        width: 100%;
+        height: 500px;
+        background-size: 800px 500px;
+    }
+    .perster {
+        margin-top: 30px;
+        font-size: 43px;
+        text-indent: 4%;
+    }
+    .p2erster {
+        font-size: 30px;
+        margin-top: 33px;
+        text-indent: 4%;
+    }
+    .divGeld {
+        width: 100%;
+        height: 1900px;
+    }
+    .h1Geld {
+        font-size: 40px;
+    }
+    .stylegeld {
+        width: 15rem;
+        height: 400px;
+        margin-top: 30px;
+    }
+    .h {
+        width: 100%;
+        height: 530px;
+    }
+    .imgp {
+        width: 100%;
+        height: 400px;
+    }
+    .cimg {
+        height: 400px;
+    }
+    .carousel {
+        height: 400px;
+    }
+    .stuspan {
+        font-size: 32px;
+    }
+    .paralaxdiv .paralax {
+        width: 100%;
+        height: 850px;
+        color: black;
+        background-size: 400px 500px;
+        background-position: center;
+    }
+    .ausbildung .dritteDiv {
+        width: 300px;
+        height: 1650px;
+        background-color: #383131;
+    }
+    .offses-1 {
+        margin-left: 25px;
+    }
+    .dritteDiv .h2p {
+        text-align: center;
+        font-size: 32px;
+        margin-top: 30px;
+    }
+    .ausbildung .ausbildungh2 {
+        font-size: 42px;
+    }
+    .contain .p {
+        font-size: 33px;
+    }
+    .contain .img {
+        width: 320px;
+        height: 303px;
+    }
+    .ausbildung .h1 {
+        margin-top: 23px;
+        font-size: 37px;
+    }
+    .Praktikum {
+        width: 100%;
+        height: 500px;
+    }
+    .Praktikum .titlepraktikum {
+        font-size: 35px;
+    }
+    .Praktikum .textpraktikum {
+        font-size: 16px;
+    }
+    .Praktikum .imgpraktikum {
+        width: 100%;
+        height: 450px;
+        background-size: 1200px 1000px;
+    }
+    .medi .jumbot {
+        height: 450px;
+        background-size: 600px 450px;
+    }
+    .h1aupair {
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .paupair {
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .abfahrt1 .imgausl {
+        width: 300px;
+        height: 230px;
+        position: absolute;
+        top: -30%;
+        left: 5%;
+    }
+    .abfahren {
+        width: 100%;
+        height: 800px;
+    }
+    .abfahren .dibabfahrt {
+        margin-bottom: 270px;
+    }
+    .zweiteDiv .divaupairimg {
+        margin-bottom: 240px;
+    }
+    .imgausl {
+        width: 250px;
+        height: 200px;
+        position: absolute;
+        top: -29%;
+        left: 5%;
+    }
+    .zweiteDiv {
+        font-size: 15px;
+        height: 800px;
+    }
+    .head .navbar {
+        font-size: 20px;
+    }
+    .a11 {
+        text-indent: -8px;
+        font-family: 'Inconsolata', monospace;
+        font-size: 21px;
+    }
+    .medizin .pro {
+        width: 100%;
+        height: 1200px;
+        background-color: #B0E0E6;
+    }
+    .medizin .h2kontw {
+        font-size: 33px;
+    }
+    .medizin .h2kont {
+        font-size: 25px;
+    }
+    .medizin .ulkontakt {
+        font-size: 18px;
+    }
+    .landjumb .landtext {
+        font-size: 27px;
+    }
+    .landjumb .landtitle {
+        font-size: 17px;
+    }
+    .kontjumb .landtitle {
+        font-size: 20px;
+    }
+    .kontjumb .landtext {
+        font-size: 27px;
+    }
+    .kontjumb {
+        background-image: url(https://bloknot-krasnodar.ru/storage/ads_bloknot_preview/1752361868.jpg);
+        width: 100%;
+        height: 400px;
+        background-size: 500px 400px;
+    }
+    .landjumb {
+        background-size: 500px 400px;
+        width: 100%;
+        height: 400px;
+    }
+    .ml-auto .link {
+        margin-top: 10px;
+    }
+    .divkarte .iframe {
+        width: 380px;
+        height: 300px;
+    }
+    .divkarte {
+        margin-left: 10px;
+        font-size: 30px;
+    }
+    .emailkarte {
+        width: 360px;
+        height: 250px;
+        background-color: #F4EEEE;
+    }
+    .photokarte {
+        width: 360px;
+        height: 220px;
+        background-color: #F4EEEE;
+    }
+    .a11 {
+        text-indent: 15px;
+    }
+}
+
+@media only screen and (max-width:380px) {
+    .erster {
+        width: 100%;
+        height: 500px;
+        background-size: 800px 500px;
+    }
+    .perster {
+        font-size: 40px;
+        text-indent: 4%;
+    }
+    .p2erster {
+        font-size: 30px;
+        text-indent: 4%;
+    }
+    .cimg {
+        height: 360px;
+    }
+    .carousel {
+        height: 360px;
+    }
+    .stuspan {
+        font-size: 32px;
+    }
+    .divGeld {
+        width: 100%;
+        height: 1900px;
+    }
+    .h1Geld {
+        font-size: 35px;
+    }
+    .stylegeld {
+        width: 14rem;
+        height: 400px;
+        margin-top: 30px;
+    }
+    .h {
+        width: 100%;
+        height: 480px;
+    }
+    .imgp {
+        width: 100%;
+        height: 350px;
+    }
+    .paralax .ulParalax {
+        font-size: 17px;
+    }
+    .paralax .h1paralax {
+        font-size: 25px;
+    }
+    .paralaxdiv .paralax {
+        width: 100%;
+        height: 800px;
+        color: black;
+        background-size: 400px 500px;
+        background-position: center;
+    }
+    .ausbildung .dritteDiv {
+        width: 300px;
+        height: 1650px;
+        background-color: #383131;
+    }
+    .offses-1 {
+        margin-left: 25px;
+    }
+    .dritteDiv .h2p {
+        text-align: center;
+        font-size: 32px;
+        margin-top: 30px;
+    }
+    .ausbildung .ausbildungh2 {
+        font-size: 38px;
+    }
+    .contain .p {
+        font-size: 28px;
+    }
+    .contain .img {
+        width: 280px;
+        height: 283px;
+    }
+    .ausbildung .h1 {
+        margin-top: 23px;
+        font-size: 32px;
+    }
+    .Praktikum {
+        width: 100%;
+        height: 500px;
+    }
+    .Praktikum .titlepraktikum {
+        font-size: 32px;
+    }
+    .Praktikum .textpraktikum {
+        font-size: 14px;
+    }
+    .Praktikum .imgpraktikum {
+        width: 100%;
+        height: 450px;
+        background-size: 1200px 600px;
+    }
+    .medizin .pro {
+        width: 100%;
+        height: 1340px;
+        background-color: #B0E0E6;
+    }
+    .divkarte .iframe {
+        width: 280px;
+        height: 300px;
+    }
+    .emailkarte {
+        width: 250px;
+        height: 200px;
+        background-color: #F4EEEE;
+    }
+    .ulemph {
+        list-style: none;
+        font-size: 14px;
+    }
+    .photokarte {
+        width: 250px;
+        height: 170px;
+        background-color: #F4EEEE;
+    }
+    .a11 {
+        text-indent: 13px;
+        font-family: 'Inconsolata', monospace;
+        font-size: 17px;
+    }
+    .h2emph {
+        text-align: center;
+        font-family: 'Inconsolata', monospace;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:250px) {}

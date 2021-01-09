@@ -1,17 +1,21 @@
 import React, { Component } from 'react';
 import { Carousel } from 'react-bootstrap';
 import './carou.css'
+import XXL from "../pictures/XXL.jfif"
+import r2 from "../pictures/r2.jpg"
+import r3 from "../pictures/r3.jpg"
+
 
 class Carou extends Component {
     render() {
         return (
             
-            <div className='col-lg-12 col-md-12 h'>
+            <div className=' h'>
                 <Carousel className="my-5">
                     <Carousel.Item>
                         <img
                             className="d-block w-100 imgp"
-                          src="https://avatars.mds.yandex.net/get-zen_doc/28845/pub_5d91ae6efbe6e700adaa4b77_5d91b4f0a06eaf00ae8b0489/scale_1200"
+                          src={XXL}
                             alt="First slide"
                         />
                         <Carousel.Caption>
@@ -21,7 +25,7 @@ class Carou extends Component {
                     <Carousel.Item>
                         <img
                             className="d-block w-100 imgp"
-                             src=" https://pbs.twimg.com/media/EFN9amdXUAAr7AU.jpg" 
+                             src={r2}
                             alt="Third slide"
                         />
 
@@ -33,7 +37,7 @@ class Carou extends Component {
                     <Carousel.Item>
                         <img
                             className="d-block w-100 imgp"
-                            src="https://static5.depositphotos.com/1030923/426/i/950/depositphotos_4269417-stock-photo-berlin-germany.jpg"
+                            src={r3}
                             alt="Third slide"
                         />
 

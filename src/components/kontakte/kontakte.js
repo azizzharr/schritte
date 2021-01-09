@@ -1,11 +1,11 @@
 import React, { Component } from "react"
 import "./kontakte.css"
-import { Container, Jumbotron,Card,Row } from "react-bootstrap"
+import { Container, Jumbotron } from "react-bootstrap"
 
 class Kontakte extends Component {
     render() {
         return (
-            <div>
+            <div className="medizin">
                 <br />
 
                 <Container>
@@ -34,7 +34,7 @@ class Kontakte extends Component {
                             
 </h2>
 <br/>
-<ul>
+<ul className="ulkontakt"> 
     <li>
     Для того, что бы официально работать медицинской сестрой в клинике Германии, необходимо пройти индивидуальную процедуру признания
     </li>
@@ -48,7 +48,7 @@ class Kontakte extends Component {
     длительность образования, а также опыт работы по специальности.
     </li>
 </ul>
-<ul>
+<ul className="ulkontakt">
     <li>
     Наша компания предоставляет возможность получить временное разрешение на работу по специальности в ограниченном объеме
     </li>
@@ -60,7 +60,7 @@ class Kontakte extends Component {
     дальнейшей работы и является достаточным для 100% признания диплома.
     </li>
     </ul>
-    <ul>
+    <ul className="ulkontakt">
         <li>
         Важно: ни один СНГ диплом медицинской сестры не соответствует немецкому диплому. Апробационное ведомство признает диплом 
         </li>

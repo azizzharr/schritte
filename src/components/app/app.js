@@ -20,20 +20,20 @@ import Fordern from '../fordern/fordern';
 import Kontakte from "../kontakte/kontakte"
 import Fsb from "../fsb/fsb"
 import Landwirtschaft from "../Landwirtschaft/Landwirtschaft"
-import I18n from "../i18n/i18n"
-
 
 class App extends Component {
     render() {
         return (
             <Router>
                 <div>
-                    <Header />
+                   
+                    <Header/>
                     <Switch>
                         <Route exact path='/'>
                             <Container>
                                 <br />
-                                <I18n/>
+                         
+                               
                                 <Erster />
                                 <Studenten />
                                 <Abfahrt />

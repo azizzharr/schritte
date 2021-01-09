@@ -1,9 +1,15 @@
-.stuspan{
+.stuspan {
     font-size: 42px;
     background-color: burlywood;
     text-align: center;
     font-family: 'Martel', serif;
 }
-.cimg{
-    height: 850px;
+
+.cimg {
+    height: 880px;
+}
+
+.carousel {
+    height: 880px;
+    width: 100%;
 }

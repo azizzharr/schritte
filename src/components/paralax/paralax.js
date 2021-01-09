@@ -2,20 +2,22 @@ import React,{Component} from "react"
 import "./paralax.css"
 import { Parallax } from 'react-parallax';
 import { Container } from "react-bootstrap";
+import ersteschritte from "../pictures/ersteschritte.jpg"
+
 
 
 
 class Paralax extends Component{
     render(){
         return(
-    <div>
+    <div className="paralaxdiv">
         <Container>
-        <Parallax className="paralax" blur={6} bgImage="https://downloader.disk.yandex.ru/preview/78ad0ccd1197e03a8a1ef471b649c9df0b1b145938aad1fef4cfb4b74b177c75/5feaff51/wd9C1VFgZfak2VJNY10jpILRG0temasEhU8YMm8z-p4vR-ndAiWQzi7N5IuWQ1ws83AGQ3AdT_Dz8ILnqcmYEw%3D%3D?uid=0&filename=%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF%20%D0%AD%D1%80%D1%81%D1%82%D0%B5%20%D0%A8%D1%80%D0%B8%D1%82%D1%82%D0%B5.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=2048x2048" bgImageAlt="the cat" strength={1000}>
+        <Parallax className="paralax" blur={6} bgImage={ersteschritte} bgImageAlt="the cat" strength={1000}>
       <br/>
-       <h1>
+       <h1 className="h1paralax">
        ТРЕБОВАНИЯ ДЛЯ УЧАСТИЯ В ПРОГРАММЕ:
 
-       </h1>
+       </h1 >
         <ul className="ulParalax">
             <li>
            

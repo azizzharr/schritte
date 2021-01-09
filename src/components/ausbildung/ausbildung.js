@@ -1,22 +1,25 @@
 import React, { Component } from "react"
 import "./ausbildung.css"
 import { Container,Row,Card } from "react-bootstrap"
+import ausbildung from "../pictures/ausbildung.jpg"
+import ausbildung2 from "../pictures/ausbildung2.jpg"
 
 class Ausbildung extends Component {
     render() {
         return (
-            <div>
+            <div className="ausbildung">
                 <h1 className="h1">
                     Ausbildung в Германии
 </h1>
                 <Container className="contain">
-                    <img className="img" src="https://ulitravel.com/common/photos/goods/Germaniya-Berlinoboibox.ru_.jpg" alt="foto" />
+                    <img className="img" src={ausbildung} alt="foto" />
 
 
                     <p className="p">
                         Что такое Ausbildung?
                         </p>
                     <div data-aos="fade-right" className="zweiteDiv">
+                    <div className="divaupairimg"></div>
                         <p className="p2">
                             Ausbildung – программа профессиональной подготовки и обучения.
                        <li>
@@ -63,7 +66,7 @@ class Ausbildung extends Component {
                             <li>на прохождение Ausbildung.
                                 </li> 
                         </p>
-                        <img data-aos="fade-left" className="imgaus" src="http://samara.kg/wp-content/uploads/2020/09/ausbildung_v_germanii_1.jpg" alt=""/>
+                        <img data-aos="fade-left" className="imgausl" src={ausbildung2} alt=""/>
 
                     </div>
 <br/>
@@ -75,7 +78,7 @@ TРЕБОВАНИЯ:
                     <Row>
 
 
-<Card className=" offset-lg-1 offset-md-1 form-group" border="success" style={{ width: '18rem' }}>
+<Card className=" offset-lg-1 offset-md-1 ml-4 form-group" border="success" style={{ width: '18rem' }}>
     <Card.Header>Требования</Card.Header>
     <Card.Body>
         <Card.Title>- Возраст – 18-40 лет;</Card.Title>
@@ -165,7 +168,7 @@ TРЕБОВАНИЯ:
 
                         </div>
 
-                        <div >
+                        <div className="offses-1">
                             <h2 className="divH2 container">
                                 <br/>
                                 * Видео презентация
@@ -220,8 +223,8 @@ TРЕБОВАНИЯ:
                             </p>
                         </div>
                    
-                        <div >
-                            <h2 className="divH2 container">
+                        <div className="offses-1" >
+                            <h2 className="divH2  container">
                                 <br/>
                                 * Договор
                             </h2>

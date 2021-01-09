@@ -2,7 +2,14 @@ import React,{Component} from "react"
 import ReactDOM from "react-dom";
 import "./fsb.css"
 import {Container, Row} from "react-bootstrap"
-import { Tabs, Tab, Sonnet } from "react-bootstrap";
+import { Tabs, Tab } from "react-bootstrap";
+import f1 from "../pictures/f1.jpg"
+import f2 from "../pictures/f2.jpg"
+import f3 from "../pictures/f3.jpg"
+import f4 from "../pictures/f4.jpg"
+
+
+
 
 
 class Fsb extends Component{
@@ -50,8 +57,8 @@ FSJ или добровольный социальный год в Герман�
         <Row className="fsbimg" >
 
       
-        <img className="fsbimg col-lg-3  col-md-3  col-10" src="http://samara.kg/wp-content/uploads/2019/12/1e13cebd50ec2450cc3c9d9b89df1453-150x150.jpg " alt=""/>
-       <p className=" col-lg-8 col-md-8 col-10">
+        <img className="fsbimg col-lg-3 col-md-8     col-10" src={f1} alt=""/>
+       <p className=" fsbp col-lg-8 col-md-8 col-10">
            FSJ — работа/уход за пожилыми людьми:
 Этот вид социального года проходит либо в амбулаторной либо в стационарной службе. Наряду с прочими обязанностями вам предстоят прогулки с пожилыми, помощь при одевании/раздевании, мытье и тд.
  </p>
@@ -60,8 +67,8 @@ FSJ или добровольный социальный год в Герман�
 
 <Row className="fsbimg" >
 
-<img className="fsbimg col-lg-3  col-md-3  col-10" src="http://samara.kg/wp-content/uploads/2019/12/psychologist-with-children-150x150.jpg " alt=""/>
-<p  className=" col-lg-8 col-md-8 col-10">
+<img className="fsbimg col-lg-3 col-md-8    col-10" src={f2} alt=""/>
+<p  className="fsbp col-lg-8 col-md-8  col-10">
 
 
 SJ — работа с подростками и детьми:
@@ -71,8 +78,8 @@ SJ — работа с подростками и детьми:
 <br/>
 <Row className="fsbimg" >
 
-<img className="fsbimg col-lg-3  col-md-3  col-10" src="http://samara.kg/wp-content/uploads/2019/12/deti-tjanut-kanat-150x150.jpg" alt=""/>
-<p  className=" col-lg-8 col-md-8 col-10">
+<img className="fsbimg col-lg-3 col-md-8    col-10" src={f3} alt=""/>
+<p  className="fsbp col-lg-8 col-md-8 col-10">
 
 
 FSJ — спорт:
@@ -82,7 +89,7 @@ FSJ — спорт:
 
 <br/>
 <Row className="fsbimg" >
-<img className="fsbimg col-lg-3  col-md-3  col-10" src="http://samara.kg/wp-content/uploads/2019/12/german_traditional_dance-leavenworth.org_-150x150.jpg" alt=""/>
+<img className="fsbimg col-lg-3  col-md-8  col-10" src={f4} alt=""/>
 <p  className=" col-lg-8 col-md-8 col-10">
 
 

@@ -1,5 +1,8 @@
 import React,{Component} from "react"
 import "./emph.css"
+import {Row} from "react-bootstrap"
+import email from "../pictures/email.png"
+import telefon from "../pictures/telefon.png"
 
 class Emph extends Component{
     render(){
@@ -8,28 +11,31 @@ class Emph extends Component{
         <div className="mtemph">
 
         </div>
-         <div className="emailkarte form-group">
- <img className="imgKarte " src="https://cdn.icon-icons.com/icons2/452/PNG/256/Phone_43546.png" alt=""/>
+        <Row>
+
+       
+         <div className="emailkarte form-group  col-sm-5   col-lg-5">
+ <img className="imgKarte " src={telefon} alt=""/>
  <h2 className="h2emph">
      Telefon
  </h2>
  <ul className="ulemph">
      <li>
-     +996 703-016-540
+     + 996 999 - 081 - 406
      </li>
      <li>
-     +996 703-016-540
+     + 996 779 - 984 - 198
      </li>
      <li>
-  +996 703-016-540
+     +996 705 - 954 - 198
      </li>
  </ul>
    
 
   
                 </div>
-                <div className="photokarte form-group">
-<img className="imgKarte" src="https://cdn.icon-icons.com/icons2/1826/PNG/512/4202011emailgmaillogomailsocialsocialmedia-115677_115624.png" alt="fotos"/>
+                <div className="photokarte form-group offset-sm-1 col-sm-5 offset-lg-1 col-lg-5">
+<img className="imgKarte" src={email} alt="fotos"/>
           <h2 className="h2emph">
      Email
  </h2>
@@ -37,6 +43,7 @@ class Emph extends Component{
      azizbekaibashuulu@gmail.com
     </h4>  
   </div>
+   </Row>
     </div>
         )
     }

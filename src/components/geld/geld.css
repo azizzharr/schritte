@@ -1,10 +1,15 @@
-.divGeld{
+.divGeld {
     width: 100%;
     height: 500px;
     background-color: burlywood;
 }
-.h1Geld{
+
+.h1Geld {
     font-size: 50px;
     font-family: 'Martel', serif;
+}
 
+.stylegeld {
+    width: 14rem;
+    height: 450px;
 }

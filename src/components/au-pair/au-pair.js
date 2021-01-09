@@ -1,6 +1,8 @@
 import React, { Component } from "react"
 import "./au-pair.css"
 import { Jumbotron, Button, Container, Row, Card } from "react-bootstrap"
+import aupair from "../pictures/aupair.png"
+import aupair0 from "../pictures/aupair0.jpeg"
 
 class AuPair extends Component {
     render() {
@@ -8,7 +10,7 @@ class AuPair extends Component {
             <div>
                 <div className="div">
 
-                    <Jumbotron className="jumbot">
+                    <Jumbotron className="jumbot" src={aupair0} >
                         <div className="mt">
 
                         </div>
@@ -30,6 +32,7 @@ class AuPair extends Component {
                         Что такое Au Pair?
                         </p>
                     <div data-aos="fade-right" className="zweiteDiv">
+                        <div className="divaupairimg"></div>
                         <p className="p2">
                             Au Pair – это международная программа культурного обмена, которая
                        <li>
@@ -76,7 +79,7 @@ class AuPair extends Component {
                                 что основные расходы покрывает принимающая семья.
                                 </li>
                         </p>
-                        <img data-aos="fade-left" className="imgaus" src="http://samara.kg/wp-content/uploads/2019/08/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA.png" alt="" />
+                        <img data-aos="fade-left" className="imgausl" src={aupair} alt="" />
 
                     </div>
                     <br />
@@ -156,7 +159,7 @@ class AuPair extends Component {
                         <Row>
 
 
-                            <Card className=" offset-lg-1 offset-md-1 form-group" border="success" style={{ width: '18rem' }}>
+                            <Card className=" ml-4 offset-lg-1 offset-md-1 form-group" border="success" style={{ width: '18rem' }}>
                                 <Card.Header>Фотография</Card.Header>
                                 <Card.Body>
                                     <Card.Title>Ваши фотографии</Card.Title>

@@ -1,19 +1,21 @@
 import React,{Component} from "react"
 import {Card} from "react-bootstrap"
 import "./praktikum.css"
+import praktikum from "../pictures/praktikum.jpg"
 
 
 class Praktikum extends Component{
     render(){
         return(
-    <div>
+    <div className=" Praktikum ">
          <br/>
         
 
         
-        <Card className="bg-dark  text-white">
-  <Card.Img className="imgpraktikum" src="https://i.artfile.ru/2048x1362_734172_[www.ArtFile.ru].jpg" alt="Card image" />
+        <Card className="bg-darktext-white">
+  <Card.Img className="imgpraktikum" src={praktikum} alt="Card image" />
   <Card.ImgOverlay>
+    <br/>
     <Card.Title className="titlepraktikum">ГОДОВАЯ ПРАКТИКА</Card.Title>
     <Card.Text className="textpraktikum" >
     ДРУЗЬЯ, У НАС ОТКРЫТ НАБОР НА ПРАКТИКУ

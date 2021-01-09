@@ -1,7 +1,13 @@
 import React,{Component} from "react"
-import { Container,Card,Jumbotron ,CardDeck} from "react-bootstrap"
+import { Container,Card,Jumbotron ,Row} from "react-bootstrap"
 import "./Landwirtschaft.css"
-    
+import land1 from "../pictures/land1.jpg"   
+import land2 from "../pictures/land2.jpg"    
+import land3 from "../pictures/land3.jpg"    
+import land4 from "../pictures/land4.jpg"    
+import land5 from "../pictures/land5.jpg"    
+import land6 from "../pictures/land6.jpg"    
+
 
 class Landwirtschaft extends Component{
     render(){
@@ -17,65 +23,86 @@ class Landwirtschaft extends Component{
 
                         <span className="landtext" > Трудоустройство   Земледелие В Германии </span>
                         <br />
-                        <span className="landtitle" >
+                        <span className="landtitle" > 
                         Для гражданов СНГ
 
                         </span>
                       
                          
                     </Jumbotron>
-                    <br/>
-                    <CardDeck>
-  <Card>
-    <Card.Img className="imgvakansy" variant="top" src="https://gatchina-news.ru/images/cms/thumbs/467de8571fbab23cadb4a56eb76d2e3fa1f44f49/3c6f56f3566d2a00449866e58d5dd871_900_auto_jpg.jpg" />
-    <Card.Body>
-      <Card.Title> сельское хозя́йство 
-</Card.Title>
-      <Card.Text>
-      Компания "Бургер Кинг, основанная в 1954 году, является второй по величине сетью быстрого питания в мире. Во всех Бургер Кингах ротационная система работа на кассе и кухне.
+                   
+                   
+
+                    
+                    <Row>
 
 
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
+  <Card className="card18 col-lg-4 col-md-6 col-sm-6 form-group">
+  <Card.Img className="imgvakansy"  variant="top" src={land1} />
+  <Card.Body>
+    <Card.Title>сельское хозя́йство </Card.Title>
+    <Card.Text>
+    Обязанности
+Сбор урожая спаржи в поле
+Другие работы в поле
+Требования
+Требуются парни и девушки
+Требуются кандидаты со знанием английского языка на уровне                     Pre-Intermediate (2 на группу), кандидаты со знанием немецкого языка на уровне А1 (1 на группу), а также кандидаты без знания языков
+
+    </Card.Text>
+  </Card.Body>
+  <Card.Footer>
       <small className="text-muted">Erster Schritte</small>
     </Card.Footer>
-  </Card>
-  <Card>
-    <Card.Img className="imgvakansy" variant="top" src="https://st2.depositphotos.com/1033883/7522/i/950/depositphotos_75228165-stock-photo-male-rancher-in-a-farm.jpg" />
+</Card>
+
+
+  <Card className="card18 col-lg-4 col-md-6 col-sm-6 form-group ">
+    <Card.Img className="imgvakansy" variant="top" src={land2} />
     <Card.Body>
       <Card.Title>сельское хозя́йство </Card.Title>
       <Card.Text>
-      McDonald’s Corporation — американская корпорация, до 2010 года крупнейшая в мире сеть ресторанов быстрого питания. Во всех McDonald’s ротационная система - работа на кассе и кухне.{' '}
+      Сельское хозяйство Германии имеет успех. 70% сельскохозяйственной продукции – это животноводство, потребности которого обеспечивает растениеводство. В животноводстве основную роль играет скотоводство. На него приходится 40%
       </Card.Text>
     </Card.Body>
     <Card.Footer>
       <small className="text-muted">Erster Schritte</small>
     </Card.Footer>
   </Card>
-  <Card>
-    <Card.Img className="imgvakansy" variant="top" src="https://zanmsk.ru/wp-content/uploads/2020/01/38058d3145e3b31bd03a95eaa858b114.jpg" />
+  
+
+
+
+  <Card  className="card18 col-lg-4 col-md-6 col-sm-6 form-group ">
+    <Card.Img className="imgvakansy" variant="top" src={land3} />
     <Card.Body>
       <Card.Title>сельское хозя́йство </Card.Title>
       <Card.Text>
-      Предоставляется работа в отелях и ресторанах Германии. Вакансии :официанты, кассиры, помощники на кухне, горничные.
+      Вакансия только для студентов сельско-хозяйственных ВУЗов
+Физическая выносливость, готовность к кропотливому трудуОтветственность, честность, порядочность
+Старательность, надежность, мотивация
       </Card.Text>
     </Card.Body>
     <Card.Footer>
       <small className="text-muted">Erster Schritte</small>
     </Card.Footer>
   </Card>
-</CardDeck>
+
+
 
 <br/>
-<CardDeck>
-  <Card>
-    <Card.Img className="imgvakansy" variant="top" src="https://wallpapercave.com/wp/wp6821276.jpg" />
+  <Card className="card18 col-lg-4 col-md-6 col-sm-6 form-group ">
+    <Card.Img className="imgvakansy" variant="top" src={land4} />
     <Card.Body>
       <Card.Title> сельское хозя́йство 
 </Card.Title>
       <Card.Text>
-      Компания "Бургер Кинг, основанная в 1954 году, является второй по величине сетью быстрого питания в мире. Во всех Бургер Кингах ротационная система работа на кассе и кухне.
+      Обязанности
+Сбор урожая спаржи в поле
+Другие работы в поле
+Требования
+Требуются парни и девушки
+Требуются кандидаты со знанием английского языка на уровне                     Pre-Intermediate (2 на группу), кандидаты со знанием немецкого языка на уровне А1 (1 на группу), а также кандидаты без знания языков
 
 
       </Card.Text>
@@ -84,32 +111,41 @@ class Landwirtschaft extends Component{
       <small className="text-muted">Erster Schritte</small>
     </Card.Footer>
   </Card>
-  <Card>
-    <Card.Img className="imgvakansy" variant="top" src="http://www.adm-tavda.ru/userfiles/%D0%9E%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B1%D1%83%D1%85%D1%83%D1%87%D0%B5%D1%82%D0%B0%20%D0%B2%20%D1%81_%D1%85_(1).jpg" />
+
+
+
+
+
+
+
+  <Card className="card18 col-lg-4 col-md-6 col-sm-6 form-group "> 
+    <Card.Img className="imgvakansy" variant="top" src={land5} />
     <Card.Body>
       <Card.Title>сельское хозя́йство </Card.Title>
       <Card.Text>
-      McDonald’s Corporation — американская корпорация, до 2010 года крупнейшая в мире сеть ресторанов быстрого питания. Во всех McDonald’s ротационная система - работа на кассе и кухне.{' '}
+      Германии сельское хозяйство выполняет дополнительные задачи, значение которых постоянно возрастает. Это сохранение и защита природных основ жизни, охрана привлекательных ландшафтов для жилых районов, расселения, размещения экономики
       </Card.Text>
     </Card.Body>
     <Card.Footer>
       <small className="text-muted">Erster Schritte</small>
     </Card.Footer>
   </Card>
-  <Card>
-    <Card.Img className="imgvakansy" variant="top" src="https://thelibertarianrepublic.com/wp-content/uploads/2017/06/the-pros-and-cons-to-drinking-raw-milk.jpg" />
+
+
+  
+  <Card className="card18 col-lg-4 col-md-6 col-sm-6 form-group ">
+    <Card.Img className="imgvakansy" variant="top" src={land6} />
     <Card.Body>
       <Card.Title>сельское хозя́йство </Card.Title>
       <Card.Text>
-      Предоставляется работа в отелях и ресторанах Германии. Вакансии :официанты, кассиры, помощники на кухне, горничные.
+      Сельское хозяйство Германии имеет успех. 70% сельскохозяйственной продукции – это животноводство, потребности которого обеспечивает растениеводство. В животноводстве основную роль играет скотоводство. На него приходится 40%
       </Card.Text>
     </Card.Body>
     <Card.Footer>
       <small className="text-muted">Erster Schritte</small>
     </Card.Footer>
   </Card>
-</CardDeck>
-
+</Row>
                   
                  
 

@@ -1,11 +1,16 @@
 import React,{Component} from "react"
 import "./geld.css"
 import {Card,ListGroup,ListGroupItem,Row} from "react-bootstrap"
+import z1 from "../pictures/z1.jpg"
+import z2 from "../pictures/z2.jpg"
+import z3 from "../pictures/z3.jpg"
+import z4 from "../pictures/z4.png"
+
 
 class Geld extends Component{
     render(){
         return(
-    <div>
+    <div className="geld">
 <h1 className="h1Geld">
    
 ЗАРАБОТОК И РАСХОДЫ
@@ -17,8 +22,8 @@ class Geld extends Component{
 <br/>
     <Row>
        
-<Card className="form-group ml-5"  style={{ width: '15rem', height:"400px" }}>
-  <Card.Img variant="top" src="https://static.vecteezy.com/system/resources/previews/000/531/596/original/hand-holding-euro-icon-vector.jpg" />
+<Card className="form-group ml-5 stylegeld" >
+  <Card.Img variant="top" src={z1} />
   <Card.Body>
     <Card.Title>ЗАРАБОТОК</Card.Title>
   </Card.Body>
@@ -29,8 +34,8 @@ class Geld extends Component{
   </ListGroup>
 </Card>
 <br/>
-<Card className="form-group ml-4"  style={{ width: '15rem', height:"400px" }}>
-  <Card.Img variant="top" src="https://vk.vkfaces.com/854520/v854520257/177783/w5Nwz6RsVgg.jpg" />
+<Card className="form-group ml-5  stylegeld"  >
+  <Card.Img variant="top" src={z2} />
   <Card.Body>
     <Card.Title>ЖИЛЬЕ</Card.Title>
     
@@ -43,8 +48,8 @@ class Geld extends Component{
 </Card>
 
 
-<Card className="form-group ml-4"  style={{ width: '15rem', height:"400px" }}>
-  <Card.Img variant="top" src="https://cdn.pixabay.com/photo/2015/07/13/07/32/icons-842854_1280.png" />
+<Card className="form-group ml-5 stylegeld">
+  <Card.Img variant="top" src={z3}/>
   <Card.Body>
     <Card.Title>АВИАПЕРЕЛЕТ</Card.Title>
    
@@ -57,8 +62,8 @@ class Geld extends Component{
 </Card>
 
 
-<Card className="form-group ml-4"  style={{ width: '15rem', height:"400px" }}>
-  <Card.Img variant="top" src="https://i.ya-webdesign.com/images/balance-clipart-leverage-18.png" />
+<Card className="form-group ml-5  stylegeld" >
+  <Card.Img variant="top" src={z4} />
   <Card.Body>
     <Card.Title>ПРОЧИЕ РАСХОДЫ</Card.Title>
    

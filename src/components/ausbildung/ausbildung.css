@@ -1,65 +1,72 @@
-.h1{
+.h1 {
     font-size: 40px;
     font-family: 'Playfair Display';
     font-weight: 400;
     text-align: center;
 }
-.img{
+
+.img {
     width: 1280px;
     height: 853px;
+}
 
+.contain {
+    margin-left: 6%;
 }
-.contain{
-        margin-left: 6%;
-}
-.p{
+
+.p {
     font-size: 36px;
     clear: both;
     text-align: center;
 }
-.zweiteDiv{
+
+.zweiteDiv {
     font-size: 15px;
     line-height: 24.6px;
     position: relative;
 }
-.p2{
+
+.p2 {
     text-indent: 12px;
 }
-li{
+
+li {
     list-style: none;
 }
-.imgaus{
+
+.imgaus {
     width: 700;
     height: 300px;
-    position:absolute;
-    top:3.5%;
-    left:54%;
+    position: absolute;
+    top: 3.5%;
+    left: 54%;
 }
-.dritteDiv{
+
+.dritteDiv {
     width: 115.5%;
     height: 700px;
-    background-color:#383131;
-   
-
+    background-color: #383131;
 }
-.h2p{
+
+.h2p {
     text-align: center;
     font-size: 32px;
     margin-top: 50px;
-     color:white;
+    color: white;
 }
-.divH2{
-        color:white;
-        font-size: 26px;
 
+.divH2 {
+    color: white;
+    font-size: 26px;
 }
-.divP{
-    color:whitesmoke;
+
+.divP {
+    color: whitesmoke;
     font-size: 16px;
 }
-.ausbildungh2{
-text-align: center;
-font-size: 50px;
-font-family: 'Martel', serif;
 
+.ausbildungh2 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Martel', serif;
 }

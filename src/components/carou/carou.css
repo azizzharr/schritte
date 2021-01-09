@@ -1,9 +1,10 @@
-.imgp{
-    width: 80%;
-    height: 600px;
+.imgp {
+    width: 900px;
+    height: 650px;
 }
-.carH2{
+
+.carH2 {
     background-color: #366E97;
-    color:white;
+    color: white;
     font-size: 25px;
 }
