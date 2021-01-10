@@ -1,23 +1,25 @@
-.kontaktimg{
+.kontaktimg {
     width: 100%;
 }
-.kontjumb{
-    background-image: url(https://bloknot-krasnodar.ru/storage/ads_bloknot_preview/1752361868.jpg);
+
+.kontjumb {
+    background-image: url(https://3.downloader.disk.yandex.ru/preview/8ef6a1a840cbb688dae7bde04a1571fd412e5cc30d21fd5bea5173c74a20a44a/inf/-3WbCOx3g2-bJmr8wVaKkRcK6GZw-k2z4WSdBd8QhNSYP1TCXOSwViV4dDqni7D1hUgU6qCBQdo5bflVq9qC2Q%3D%3D?uid=1289017746&filename=medizin.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1289017746&tknv=v2&size=1898x902);
     width: 100%;
     height: 700px;
 }
-.pro{
+
+.pro {
     width: 100%;
     height: 500px;
     background-color: #B0E0E6;
 }
-.h2kont{
+
+.h2kont {
     text-align: center;
 }
 
-.h2kontw{
+.h2kontw {
     text-align: center;
     font-size: 50px;
     font-family: 'Martel', serif;
-
 }

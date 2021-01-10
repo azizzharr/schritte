@@ -20,6 +20,7 @@ import Fordern from '../fordern/fordern';
 import Kontakte from "../kontakte/kontakte"
 import Fsb from "../fsb/fsb"
 import Landwirtschaft from "../Landwirtschaft/Landwirtschaft"
+import Arbeitsgeber from "../arbeitsgeber/arbeitsgeber"
 
 class App extends Component {
     render() {
@@ -89,6 +90,10 @@ class App extends Component {
                             <Landwirtschaft/>
 
                             
+                        </Route>
+                        <Route exact path="/Arbeitgeber">
+                            
+                            <Arbeitsgeber/>
                         </Route>
                     </Switch>
                     <Container>

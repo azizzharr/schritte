@@ -1,19 +1,24 @@
-.erster{
+.erster {
     width: 100%;
     height: 550px;
     /* background-image: url(http://wp.widewallpapers.ru/2k/cities/london/1920x1200/London-1920x1200-145.jpg); */
     background-position: center;
     background-size: 1200px 600px;
 }
-.perster{
+
+.perster {
     font-size: 60px;
-    color:white;
+    color: white;
     text-indent: 4%;
     font-family: 'Martel', serif;
+    margin-left: 15px;
 }
-.p2erster{
+
+.p2erster {
     font-family: 'Charmonman', cursive;
     font-size: 50px;
-    color:white;
+    color: white;
     text-indent: 4%;
+    margin-top: 100px;
+    margin-left: 50px;
 }

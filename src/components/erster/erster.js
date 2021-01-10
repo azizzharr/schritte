@@ -21,7 +21,7 @@ class Erster extends Component {
          <p  data-aos="flip-eft"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000"  className="p2erster" >
-тогда звони нам <br/>
+Тогда звони нам <br/>
 + 996 999 - 081 - 406 <br/>
 + 996 779 - 984 - 198<br/>
 +996 705 - 954 - 198

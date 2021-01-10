@@ -1,15 +1,15 @@
-.link{
-    padding-right: 30px;
-    font-size: 18px;
-    color:aliceblue;
-
+.link {
+    padding-right: 23px;
+    font-size: 17px;
+    color: aliceblue;
 }
-.link:hover{
-    font-size: 18px;
-    color:aliceblue;
 
+.link:hover {
+    font-size: 18px;
+    color: aliceblue;
 }
-.imgScr{
-    width:70px;
+
+.imgScr {
+    width: 70px;
     height: 50px;
 }
