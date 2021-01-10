@@ -7,7 +7,7 @@ class Arbeitsgeber extends Component {
             <div className="container">
                 <br />
                 <h2>
-                    Für Arbeitgeber
+                Info Für Arbeitgeber
         </h2>
                 <br />
                 <div className="arbeitsgeber">

@@ -24,7 +24,7 @@ class Header extends Component {
             <Link className="link" to="/FSJ">FSJ , FÖD</Link>
             <Link className="link" to="/medizin">medizin</Link>
             <Link className="link" to="/Landwirtschaft">Landwirtschaft</Link>
-            <Link className="link" to="/Arbeitgeber">Arbeitgeber</Link>
+            <Link className="link" to="/Arbeitgeber"> Info für Arbeitgeber</Link>
             
           </Nav>
           </Navbar.Collapse>
