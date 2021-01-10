@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './app.css'
 import Header from '../header/header'
 import Carou from '../carou/carou'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -26,6 +27,7 @@ class App extends Component {
     render() {
         return (
             <Router>
+                <h1 className="visually-hidden">отправка в германию</h1>
                 <div>
                    
                     <Header/>
